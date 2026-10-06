@@ -14,7 +14,7 @@ go run .
 ```
 
 保持该终端运行；前端在另一个终端、自己的 Git 根启动，命令见
-[wildflow-web 的 DEV.md](https://github.com/wildsyn/wildflow-web/blob/main/DEV.md)。两仓不必放在相邻目录。
+[wildflow-web 的 DEV.md](https://github.com/wildflow-ai/wildflow-web/blob/main/DEV.md)。两仓不必放在相邻目录。
 
 - `FRONTEND_BASE_URL=http://localhost:8080`：把未知浏览器路由 301 到独立前端；
 - 不设置：API-only，未知非 `/api` 路由返回 JSON 404。

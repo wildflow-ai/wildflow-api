@@ -6,7 +6,7 @@ identity. The `web/` source belongs in `wildflow-web`; GPU workers, leases, depl
 belong in the private `wildflow-inference` repository.
 
 Frontend development commands and conventions belong to
-[wildflow-web's AGENTS.md](https://github.com/wildsyn/wildflow-web/blob/main/AGENTS.md), not this repository.
+[wildflow-web's AGENTS.md](https://github.com/wildflow-ai/wildflow-web/blob/main/AGENTS.md), not this repository.
 
 All changes go through pull requests. Authentication, billing, payment, idempotency, public routes, database migrations,
 and the internal inference contract require security and contract tests. A merged PR does not authorize deployment,
